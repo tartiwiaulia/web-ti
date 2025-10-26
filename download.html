@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Download Area</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body class="bg-light">
+
+    <div class="container py-5">
+        <h1 class="text-center fw-bold mb-1 text-secondary">DOWNLOAD AREA</h1>
+        <p class="text-center text-muted mb-5">Kumpulan Dokumen dan Standard Operating Procedure (SOP)</p>
+
+        <div class="row justify-content-center">
+            <div class="col-lg-10">
+                <div class="accordion" id="downloadAccordion">
+                    
+                    <div class="accordion-item shadow-sm mb-3 rounded-3">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button bg-primary text-white fw-bold collapsed rounded-top-3" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne">
+                                <i class="fas fa-graduation-cap me-3"></i> Form dan Panduan Tugas Akhir
+                            </button>
+                        </h2>
+                        <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#downloadAccordion">
+                            <div class="accordion-body p-4 bg-white">
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item d-flex justify-content-between align-items-center">
+                                        Panduan Penulisan TA (Revisi 2024)
+                                        <a href="files/Panduan_TA_2024.pdf" download class="btn btn-sm btn-success fw-bold"><i class="fas fa-download me-1"></i> PDF</a>
+                                    </li>
+                                    <li class="list-group-item d-flex justify-content-between align-items-center">
+                                        Form Pengajuan Judul (DOCX)
+                                        <a href="files/Form_Pengajuan_Judul.docx" download class="btn btn-sm btn-success fw-bold"><i class="fas fa-download me-1"></i> DOCX</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="accordion-item shadow-sm mb-3 rounded-3">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed bg-warning text-dark fw-bold rounded-top-3" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo">
+                                <i class="fas fa-cogs me-3"></i> SOP Penggunaan Laboratorium
+                            </button>
+                        </h2>
+                        <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#downloadAccordion">
+                            <div class="accordion-body p-4 bg-white">
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item d-flex justify-content-between align-items-center">
+                                        SOP Lab Jaringan dan Server
+                                        <a href="files/SOP_Lab_Jaringan.pdf" download class="btn btn-sm btn-success fw-bold"><i class="fas fa-download me-1"></i> PDF</a>
+                                    </li>
+                                    <li class="list-group-item d-flex justify-content-between align-items-center">
+                                        Daftar Inventaris Laboratorium
+                                        <a href="files/Inventaris_Lab.xlsx" download class="btn btn-sm btn-success fw-bold"><i class="fas fa-download me-1"></i> XLSX</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item shadow-sm mb-3 rounded-3">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed bg-secondary text-white fw-bold rounded-top-3" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree">
+                                <i class="fas fa-book me-3"></i> Panduan & Kalender Akademik
+                            </button>
+                        </h2>
+                        <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#downloadAccordion">
+                            <div class="accordion-body p-4 bg-white">
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item d-flex justify-content-between align-items-center">
+                                        Buku Panduan Mahasiswa Baru
+                                        <a href="files/Panduan_Mahasiswa.pdf" download class="btn btn-sm btn-success fw-bold"><i class="fas fa-download me-1"></i> PDF</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
